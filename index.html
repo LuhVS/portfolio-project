@@ -56,9 +56,13 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
             align-items: flex-start;
             justify-content: center;
             text-align: center; 
-           
         }
 
+/* Specific styles for the project with id "project1" */
+.projectDiv#project1:hover,.projectDiv#project2:hover {
+    /* Additional styles specific to project1 on hover */
+    background-color: lightcoral;
+}
 
     </style>
 </head>
@@ -69,14 +73,14 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
  
 <div class="projectContainer">
 <!--movie project--> 
-<div class="projectDiv">
+<div class="projectDiv" id="project1" >
     <a href="./public/movie-top-3.html">
         <h3>Moving Ranking Project</h3>
-        <img width="100%" src="./assets/images/movie-ranking.png" alt="Movie ranking project">
+        <img width="100" asrc="./assets/images/movie-ranking.png" alt="Movie ranking project">
     </a>
 </div>
 <!--Birthday card project-->
-<div class="projectDiv">
+<div class="projectDiv" id="project2">
     <a href="./public/birthday-card.html">
         <h3>Birthday Card Project</h3>
         <img  width="100%" src="./assets/images/birthday-card.png" alt="Cake partying hard">
