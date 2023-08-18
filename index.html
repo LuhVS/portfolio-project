@@ -21,7 +21,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luan's portfolio</title>
     <style>
-            body{
+        body{
             font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
         h1{
@@ -39,7 +39,11 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
         a{
             color: black;
         }
-        
+        img{
+            border-radius: 10px;
+
+        }
+
         .projectContainer{
             margin: 0;
             display: flex;
@@ -48,6 +52,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
         }
 
         .projectDiv{
+            border-radius: 10px;
             margin: 10px;
             padding: 10px;
             display: flex;
@@ -57,6 +62,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
             justify-content: center;
             text-align: center; 
         }
+        
 
 /* Specific styles for the project with id "project1" */
 .projectDiv#project1:hover,.projectDiv#project2:hover {
@@ -76,7 +82,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
 <div class="projectDiv" id="project1" >
     <a href="./public/movie-top-3.html">
         <h3>Moving Ranking Project</h3>
-        <img width="100" asrc="./assets/images/movie-ranking.png" alt="Movie ranking project">
+        <img width="100" src="./assets/images/movie-ranking.png" alt="Movie ranking project">
     </a>
 </div>
 <!--Birthday card project-->
