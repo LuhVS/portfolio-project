@@ -22,13 +22,14 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <title>Luan's portfolio</title>
     <style>
         body{
-            font-family:Verdana, Geneva, Tahoma, sans-serif
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
         }
         h1{
             margin: auto;
             display: flex;
             justify-content: center;
         }
+
         h2{
             margin: 0;
             display: flex;
@@ -38,6 +39,22 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
         a{
             color: black;
         }
+        
+        .projectContainer{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .projectDiv{
+            margin: 0;
+            display: flex;
+            width: 500px;
+            font-weight: lighter;
+            align-items: center;
+            justify-content: center; 
+        }
 
     </style>
 </head>
@@ -45,18 +62,25 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <h1>Luan Victor's Portfolio</h1>
     <h2>Hi! I'm a web developer</h2>
     
+ 
+<div class="projectContainer">
 <!--movie project--> 
+<div class="projectDiv">
     <a href="./public/movie-top-3.html">
         <h3>Moving Ranking Project</h3>
         <img width="200px" src="./assets/images/movie-ranking.png" alt="Movie ranking project">
     </a>
-
+</div>
 <!--Birthday card project-->
+<div class="projectDiv">
     <a href="./public/birthday-card.html">
         <h3>Birthday Card Project</h3>
         <img  width="200pc" src="./assets/images/birthday-card.png" alt="Cake partying hard">
         <p></p>
     </a>
+</div>
+
+</div>
 
 <!--About me and Contact me links-->
     <a href="./public/about-me.html">About me</a>
