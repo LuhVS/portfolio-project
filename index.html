@@ -29,14 +29,12 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
             display: flex;
             justify-content: center;
         }
-        h2{
+        .projectDiv{
             margin: 0;
-            display: flex;
+            color: brown;
+            display:block;
             font-weight: lighter;
             justify-content: center; 
-        }
-        a{
-            color: black;
         }
 
     </style>
@@ -45,21 +43,27 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
     <h1>Luan Victor's Portfolio</h1>
     <h2>Hi! I'm a web developer</h2>
     
+ 
+<div class="projectContainer"></div>
 <!--movie project--> 
+<div class="projectDiv">
     <a href="./public/movie-top-3.html">
         <h3>Moving Ranking Project</h3>
         <img width="200px" src="./assets/images/movie-ranking.png" alt="Movie ranking project">
     </a>
-
+</div>
 <!--Birthday card project-->
+<div class="projectDiv">
     <a href="./public/birthday-card.html">
         <h3>Birthday Card Project</h3>
         <img  width="200pc" src="./assets/images/birthday-card.png" alt="Cake partying hard">
         <p></p>
     </a>
-
+</div>
 <!--About me and Contact me links-->
     <a href="./public/about-me.html">About me</a>
     <a href="./public/contact.html">Contact Me</a>
+</div>
+
 </body>
 </html>
